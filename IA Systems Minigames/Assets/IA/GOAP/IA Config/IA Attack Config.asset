@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08585510db61174e8ecb7343bae400b, type: 3}
+  m_Name: IA Attack Config
+  m_EditorClassIdentifier: 
+  SensorRadius: 30
+  MeleeAttackRadius: 3
+  MeleeAttackCost: 5
+  AttackDelay: 1
+  AttackableLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  MeleePrefab: {fileID: 7950024513343117921, guid: 1d0c931bb375e2c4091b25526ede27d2, type: 3}
+  ShotPrefab: {fileID: 2504798781738020392, guid: e64da25ec966bed468770905b5b3b205, type: 3}
+  RangeAttackCost: 3
+  RangeAttackRadius: 30
